@@ -3,7 +3,7 @@
   "description": "AtCoderのブラウザ内のエディターをより高機能で、各言語に対応したAce Editorに拡張します。これよにって簡単な問題であれば直接ブラウザにコーディングを行え、高度の問題も文法エラーを容易に見つけ出すことができます",
   "version": "1.0",
   "content_scripts": [{
-    "js": ["js/ace/ace.js", "js/background.js"],
+    "js": ["js/jquery-3.4.1.min.js","js/ace/ace.js", "js/main.js"],
     "css": ["css/style.css"],
     "matches": ["http://atcoder.jp/*", "https://atcoder.jp/*"]
   }],
